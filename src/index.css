@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-image: url("https://img.freepik.com/free-vector/abstract-3d-fluid-metaball-shape-with-bluish-balls_1217-3258.jpg?t=st=1735391594~exp=1735395194~hmac=63a80eb5f0525f53fdd97115fe2d22f17677d3af48da38daf2605514271414e2&w=1060");
+    
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* padding: 20px 0; */
+}
