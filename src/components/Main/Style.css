@@ -1,0 +1,150 @@
+
+.body{
+    background-image: url("https://img.freepik.com/free-vector/abstract-3d-fluid-metaball-shape-with-bluish-balls_1217-3258.jpg?t=st=1735391594~exp=1735395194~hmac=63a80eb5f0525f53fdd97115fe2d22f17677d3af48da38daf2605514271414e2&w=1060");
+    width: 100vw;  /* 100% of the viewport width */
+    height: 100vh; /* 100% of the viewport height */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px 0; */
+}
+.inner-section{
+    width: 90%;
+    
+}
+.head-section{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 20px 0;
+    flex-direction: row;
+    align-items: center;
+    /* text-decoration: underline;
+    color: white; */
+}
+.head-section h1{
+    text-decoration: underline;
+    color: white;
+}
+.head-section .logout{
+    padding: 5px 10px;
+    border-radius: 8px;
+    /* height: 5px; */
+    /* color: white; */
+}
+.outter-layer{
+    width: 90%;
+    height: 781px;
+    background:rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 5px;
+    display: flex;
+    place-content: center;
+/* justify-content:space-between; */
+align-items: center;
+}
+.wallet-section{
+    background:rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 2px 20px;
+    align-items: center;
+}
+.wallet-section  p{
+    font-size:xx-large;
+    color: #000000;
+}
+.expanse-section p{
+    font-size:xx-large;
+    color: #000000;
+}
+.expanse-section span{
+    font-size: larger;
+    color: #f80000;
+}
+.wallet-section span{
+    font-size: larger;
+    color: #f80000;
+}
+.expanse-section{
+    margin: 2px 20px;
+    background:rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.chart-section{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background: #ffffff;
+}
+.add-btn{
+    width: 100px;
+    padding: 8px 0;
+    border-radius: 15px;
+    background: #0595c6;
+    color: white;
+    outline: none;
+    border: white;
+}
+.add-btn:hover{
+    background: white;
+    color: #000000;
+}
+.transactions{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.transactions .t-heading{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+.transactions-list{
+    display: flex;
+    flex-direction: column;
+    scrollbar-width: 50px;
+    
+}
+.expanse{
+    display: flex;
+    height: 60px;
+    flex-direction: row;
+    justify-content: space-between;
+    /* place-content: center; */
+    margin:13px 0;
+    border: 2px solid#ffffff;
+    background:rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    align-items: center;
+    padding: 0 20px;
+}
+.purchase h1{
+        font-size: larger;
+        margin: 0;color: rgb(4, 14, 23);
+}
+.purchase p{
+    margin: 0;
+    font-size: medium;
+}
+.price{
+    display: flex;
+}
+.price span{
+    margin: 0 9px;
+    color: #e80303;
+    font-weight: 600;
+}
+.price span:hover{
+    /* margin: 0 3px; */
+    color: #fdfdfd;
+    font-weight: 600;
+}
